@@ -1,0 +1,40 @@
+[
+
+  {
+    "model": "auth_vk.clinic",
+    "pk": 1,
+    "fields": {
+      "name": "City Medical Center"
+    
+    }
+  },
+  {
+    "model": "auth_vk.doctor",
+    "pk": 1,
+    "fields": {
+      "first_name": "John",
+      "last_name": "Doe",
+
+      "description": "Experienced heart specialist",
+      "price_per_visit": "120.00",
+      "external_id": "DOC123"
+    }
+  },
+
+  {
+    "model": "auth_vk.illness",
+    "pk": 1,
+    "fields": {
+      "name": "Flu",
+      "description": "Common viral infection"
+    }
+  },
+  {
+    "model": "auth_vk.illness",
+    "pk": 2,
+    "fields": {
+      "name": "Hypertension",
+      "description": "High blood pressure condition"
+    }
+  }
+]

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Post</title>
+
+  <!-- Core Editor.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+
+  <!-- Editor.js Tools -->
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/code@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/list@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/checklist@latest"></script>
+
+  <style>
+    #editorjs {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 5px;
+      background: #fafafa;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Create a Post</h1>
+  <div id="editorjs"></div>
+  <button onclick="savePost()">Save Post</button>
+
+  <script>
+    // Initialize Editor.js
+    const editor = new EditorJS({
+      holder: 'editorjs',
+      tools: {
+        header: Header,
+        image: {
+          class: ImageTool,
+          config: {
+            endpoints: {
+              byFile: '/upload-image/', // Your backend endpoint
+              byUrl: '/fetch-image/' // Optional
+            }
+          }
+        },
+        paragraph: {
+          class: Paragraph,
+          inlineToolbar: true
+        },
+        code: CodeTool,
+        quote: Quote,
+
+      },
+      placeholder: 'Start writing your post here...',
+    });
+
+    // Save post and send JSON to Django
+    function savePost() {
+      editor.save().then((outputData) => {
+        console.log('Article data:', outputData);
+        fetch('/save-post/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': getCSRFToken()
+          },
+          body: JSON.stringify(outputData)
+        }).then(response => {
+          if (response.ok) {
+            alert("Post saved successfully!");
+          } else {
+            alert("Error saving post.");
+          }
+        });
+      }).catch((error) => {
+        console.error('Saving failed: ', error);
+      });
+    }
+
+    // Get CSRF token from cookie
+    function getCSRFToken() {
+      return document.cookie.split('; ')
+        .find(row => row.startsWith('csrftoken='))
+        ?.split('=')[1];
+    }
+  </script>
+  <script>
+    const Header = window.Header;
+    const Paragraph = window.Paragraph;
+    const ImageTool = window.ImageTool;
+    const CodeTool = window.CodeTool;
+    const Quote = window.Quote;
+    const List = window.List;
+    const Embed = window.Embed;
+    const Checklist = window.Checklist;
+</script>
+</body>
+</html>

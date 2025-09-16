@@ -1,0 +1,642 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18 03:20+0000\n"
+"PO-Revision-Date: 2025-07-23 06:10+0500\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: auth_vk/admin.py:151
+msgid "Send notification to selected users"
+msgstr "Отправить уведомление выбранным пользователям"
+
+#: auth_vk/models.py:21 auth_vk/models.py:329 auth_vk/models.py:529
+msgid "Patient"
+msgstr "Пациент"
+
+#: auth_vk/models.py:22 auth_vk/models.py:336 auth_vk/models.py:530
+#: auth_vk/models.py:641
+msgid "Doctor"
+msgstr "Врач"
+
+#: auth_vk/models.py:23
+msgid "Admin"
+msgstr "Администратор"
+
+#: auth_vk/models.py:27
+msgid "Male"
+msgstr "Мужской"
+
+#: auth_vk/models.py:28
+msgid "Female"
+msgstr "Женский"
+
+#: auth_vk/models.py:29
+msgid "Other"
+msgstr "Другой"
+
+#: auth_vk/models.py:33
+msgid "User Type"
+msgstr "Тип пользователя"
+
+#: auth_vk/models.py:34
+msgid "First Name"
+msgstr "Имя"
+
+#: auth_vk/models.py:35
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: auth_vk/models.py:36
+msgid "Middle Name"
+msgstr "Отчество"
+
+#: auth_vk/models.py:39
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: auth_vk/models.py:40
+msgid "Date of Birth"
+msgstr "Дата рождения"
+
+#: auth_vk/models.py:41
+msgid "Gender"
+msgstr "Пол"
+
+#: auth_vk/models.py:42
+msgid "Verified"
+msgstr "Верифицирован"
+
+#: auth_vk/models.py:43
+msgid "Agreed to Terms"
+msgstr "Согласен с условиями"
+
+#: auth_vk/models.py:44
+msgid "Biometric Enabled"
+msgstr "Биометрия включена"
+
+#: auth_vk/models.py:45
+msgid "Employee ID"
+msgstr "Идентификатор сотрудника"
+
+#: auth_vk/models.py:50
+msgid "VK ID"
+msgstr "VK ID"
+
+#: auth_vk/models.py:51 auth_vk/models.py:380 auth_vk/models.py:481
+#: auth_vk/models.py:494 auth_vk/models.py:505 auth_vk/models.py:597
+#: auth_vk/models.py:664
+msgid "Name"
+msgstr "Название"
+
+#: auth_vk/models.py:52 auth_vk/models.py:511 auth_vk/models.py:538
+msgid "External ID"
+msgstr "Внешний ID"
+
+#: auth_vk/models.py:55
+msgid "Medical License"
+msgstr "Медицинская лицензия"
+
+#: auth_vk/models.py:55
+msgid "Medical license number for doctors"
+msgstr "Номер медицинской лицензии для врачей"
+
+#: auth_vk/models.py:56 auth_vk/models.py:485
+msgid "Specialization"
+msgstr "Специализация"
+
+#: auth_vk/models.py:56
+msgid "Doctor's specialization"
+msgstr "Специализация врача"
+
+#: auth_vk/models.py:57
+msgid "Is Available (for chat)"
+msgstr "Доступен (для чата)"
+
+#: auth_vk/models.py:57
+msgid "Is doctor available for chat"
+msgstr "Врач доступен для чата"
+
+#: auth_vk/models.py:62 auth_vk/models.py:394
+msgid "Clinics"
+msgstr "Клиники"
+
+#: auth_vk/models.py:64
+msgid "Avatar"
+msgstr "Аватар"
+
+#: auth_vk/models.py:74 auth_vk/models.py:569 auth_vk/models.py:729
+msgid "User"
+msgstr "Пользователь"
+
+#: auth_vk/models.py:75 auth_vk/templates/admin/send_notification.html:9
+msgid "Users"
+msgstr "Пользователи"
+
+#: auth_vk/models.py:338 auth_vk/models.py:385 auth_vk/models.py:536
+#: auth_vk/models.py:572 auth_vk/models.py:614 auth_vk/models.py:700
+msgid "Created At"
+msgstr "Создано"
+
+#: auth_vk/models.py:339 auth_vk/models.py:652
+msgid "Is Active"
+msgstr "Активен"
+
+#: auth_vk/models.py:340
+msgid "Last Message At"
+msgstr "Время последнего сообщения"
+
+#: auth_vk/models.py:345 auth_vk/models.py:354
+msgid "Chat Room"
+msgstr "Чат"
+
+#: auth_vk/models.py:346
+msgid "Chat Rooms"
+msgstr "Чаты"
+
+#: auth_vk/models.py:355
+msgid "Sender"
+msgstr "Отправитель"
+
+#: auth_vk/models.py:356
+msgid "Content"
+msgstr "Содержимое"
+
+#: auth_vk/models.py:357 auth_vk/models.py:666
+msgid "File"
+msgstr "Файл"
+
+#: auth_vk/models.py:358
+msgid "Timestamp"
+msgstr "Время"
+
+#: auth_vk/models.py:359
+msgid "Is Read"
+msgstr "Прочитано"
+
+#: auth_vk/models.py:363 auth_vk/models.py:676
+msgid "Message"
+msgstr "Сообщение"
+
+#: auth_vk/models.py:364
+msgid "Messages"
+msgstr "Сообщения"
+
+#: auth_vk/models.py:379
+msgid "UUID"
+msgstr "UUID"
+
+#: auth_vk/models.py:382
+msgid "Address"
+msgstr "Адрес"
+
+#: auth_vk/models.py:383
+msgid "Phone"
+msgstr "Телефон"
+
+#: auth_vk/models.py:384
+msgid "Email"
+msgstr "Email"
+
+#: auth_vk/models.py:386 auth_vk/models.py:537 auth_vk/models.py:615
+msgid "Updated At"
+msgstr "Обновлено"
+
+#: auth_vk/models.py:393 auth_vk/models.py:531 auth_vk/models.py:647
+msgid "Clinic"
+msgstr "Клиника"
+
+#: auth_vk/models.py:482 auth_vk/models.py:495 auth_vk/models.py:507
+#: auth_vk/models.py:598 auth_vk/models.py:665
+msgid "Description"
+msgstr "Описание"
+
+#: auth_vk/models.py:486
+msgid "Specializations"
+msgstr "Специализации"
+
+#: auth_vk/models.py:498
+msgid "Service Category"
+msgstr "Категория услуги"
+
+#: auth_vk/models.py:499
+msgid "Service Categories"
+msgstr "Категории услуг"
+
+#: auth_vk/models.py:506 auth_vk/models.py:586
+msgid "Category"
+msgstr "Категория"
+
+#: auth_vk/models.py:508
+msgid "Price"
+msgstr "Цена"
+
+#: auth_vk/models.py:509
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: auth_vk/models.py:514
+msgid "Service"
+msgstr "Услуга"
+
+#: auth_vk/models.py:515
+msgid "Services"
+msgstr "Услуги"
+
+#: auth_vk/models.py:523
+msgid "Pending"
+msgstr "В ожидании"
+
+#: auth_vk/models.py:524
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+#: auth_vk/models.py:525
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: auth_vk/models.py:526
+msgid "Completed"
+msgstr "Завершено"
+
+#: auth_vk/models.py:532
+msgid "Date"
+msgstr "Дата"
+
+#: auth_vk/models.py:533
+msgid "Time"
+msgstr "Время"
+
+#: auth_vk/models.py:534
+msgid "Notes"
+msgstr "Заметки"
+
+#: auth_vk/models.py:535 auth_vk/models.py:708
+msgid "Status"
+msgstr "Статус"
+
+#: auth_vk/models.py:551
+msgid "Cannot schedule appointments in the past"
+msgstr "Невозможно записаться на приём в прошлом"
+
+#: auth_vk/models.py:555
+msgid "Doctor does not work at this clinic"
+msgstr "Врач не работает в этой клинике"
+
+#: auth_vk/models.py:562 auth_vk/models.py:679
+msgid "Appointment"
+msgstr "Приём"
+
+#: auth_vk/models.py:563
+msgid "Appointments"
+msgstr "Приёмы"
+
+#: auth_vk/models.py:570
+msgid "Token"
+msgstr "Токен"
+
+#: auth_vk/models.py:571
+msgid "Device Type"
+msgstr "Тип устройства"
+
+#: auth_vk/models.py:575 auth_vk/models.py:730
+msgid "Device Token"
+msgstr "Токен устройства"
+
+#: auth_vk/models.py:576
+msgid "Device Tokens"
+msgstr "Токены устройств"
+
+#: auth_vk/models.py:584
+msgid "Question"
+msgstr "Вопрос"
+
+#: auth_vk/models.py:585
+msgid "Answer"
+msgstr "Ответ"
+
+#: auth_vk/models.py:587
+msgid "Order"
+msgstr "Порядок"
+
+#: auth_vk/models.py:590
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+#: auth_vk/models.py:591
+msgid "FAQs"
+msgstr "Часто задаваемые вопросы"
+
+#: auth_vk/models.py:600
+msgid "Severity Level"
+msgstr "Уровень тяжести"
+
+#: auth_vk/models.py:603
+msgid "Mild"
+msgstr "Легкий"
+
+#: auth_vk/models.py:604
+msgid "Moderate"
+msgstr "Умеренный"
+
+#: auth_vk/models.py:605
+msgid "Severe"
+msgstr "Тяжелый"
+
+#: auth_vk/models.py:606
+msgid "Critical"
+msgstr "Критический"
+
+#: auth_vk/models.py:611
+msgid "Doctors"
+msgstr "Врачи"
+
+#: auth_vk/models.py:622
+msgid "Illness"
+msgstr "Болезнь"
+
+#: auth_vk/models.py:623
+msgid "Illnesses"
+msgstr "Заболевания"
+
+#: auth_vk/models.py:628
+msgid "Monday"
+msgstr "Понедельник"
+
+#: auth_vk/models.py:629
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: auth_vk/models.py:630
+msgid "Wednesday"
+msgstr "Среда"
+
+#: auth_vk/models.py:631
+msgid "Thursday"
+msgstr "Четверг"
+
+#: auth_vk/models.py:632
+msgid "Friday"
+msgstr "Пятница"
+
+#: auth_vk/models.py:633
+msgid "Saturday"
+msgstr "Суббота"
+
+#: auth_vk/models.py:634
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: auth_vk/models.py:649
+msgid "Weekday"
+msgstr "День недели"
+
+#: auth_vk/models.py:650
+msgid "Start Time"
+msgstr "Время начала"
+
+#: auth_vk/models.py:651
+msgid "End Time"
+msgstr "Время окончания"
+
+#: auth_vk/models.py:656
+msgid "Doctor Schedule"
+msgstr "Расписание врача"
+
+#: auth_vk/models.py:657
+msgid "Doctor Schedules"
+msgstr "Расписания врачей"
+
+#: auth_vk/models.py:669 auth_vk/models.py:670
+msgid "News"
+msgstr "Новости"
+
+#: auth_vk/models.py:675
+msgid "Title"
+msgstr "Заголовок"
+
+#: auth_vk/models.py:677
+msgid "Notification Type"
+msgstr "Тип уведомления"
+
+#: auth_vk/models.py:678
+msgid "General"
+msgstr "Общие"
+
+#: auth_vk/models.py:680
+msgid "Health Tip"
+msgstr "Совет по здоровью"
+
+#: auth_vk/models.py:681
+msgid "Emergency"
+msgstr "Чрезвычайная ситуация"
+
+#: auth_vk/models.py:682
+msgid "Promotion"
+msgstr "Акция"
+
+#: auth_vk/models.py:684
+msgid "Priority"
+msgstr "Приоритет"
+
+#: auth_vk/models.py:685
+msgid "Low"
+msgstr "Низкий"
+
+#: auth_vk/models.py:686
+msgid "Normal"
+msgstr "Обычный"
+
+#: auth_vk/models.py:687
+msgid "High"
+msgstr "Высокий"
+
+#: auth_vk/models.py:688
+msgid "Urgent"
+msgstr "Срочно"
+
+#: auth_vk/models.py:692
+msgid "Recipient Count"
+msgstr "Количество получателей"
+
+#: auth_vk/models.py:693
+msgid "Successful Deliveries"
+msgstr "Успешные доставки"
+
+#: auth_vk/models.py:694
+msgid "Failed Deliveries"
+msgstr "Неудачные доставки"
+
+#: auth_vk/models.py:697
+msgid "Filter Criteria"
+msgstr "Критерии фильтрации"
+
+#: auth_vk/models.py:701
+msgid "Sent At"
+msgstr "Отправлено"
+
+#: auth_vk/models.py:702
+msgid "Scheduled For"
+msgstr "Запланировано на"
+
+#: auth_vk/models.py:706
+msgid "Sent By"
+msgstr "Отправлено кем"
+
+#: auth_vk/models.py:709
+msgid "Draft"
+msgstr "Черновик"
+
+#: auth_vk/models.py:710
+msgid "Scheduled"
+msgstr "Запланировано"
+
+#: auth_vk/models.py:711
+msgid "Sending"
+msgstr "Отправка"
+
+#: auth_vk/models.py:712
+msgid "Sent"
+msgstr "Отправлено"
+
+#: auth_vk/models.py:713
+msgid "Failed"
+msgstr "Ошибка"
+
+#: auth_vk/models.py:718 auth_vk/models.py:728
+msgid "Notification Log"
+msgstr "Журнал уведомлений"
+
+#: auth_vk/models.py:719
+msgid "Notification Logs"
+msgstr "Журналы уведомлений"
+
+#: auth_vk/models.py:733
+msgid "Delivered"
+msgstr "Доставлено"
+
+#: auth_vk/models.py:734
+msgid "Delivery Time"
+msgstr "Время доставки"
+
+#: auth_vk/models.py:735
+msgid "Error Message"
+msgstr "Сообщение об ошибке"
+
+#: auth_vk/models.py:738
+msgid "Opened"
+msgstr "Открыто"
+
+#: auth_vk/models.py:739
+msgid "Opened At"
+msgstr "Время открытия"
+
+#: auth_vk/models.py:740
+msgid "Clicked"
+msgstr "Нажато"
+
+#: auth_vk/models.py:741
+msgid "Clicked At"
+msgstr "Время нажатия"
+
+#: auth_vk/models.py:745
+msgid "Notification Recipient"
+msgstr "Получатель уведомления"
+
+#: auth_vk/models.py:746
+msgid "Notification Recipients"
+msgstr "Получатели уведомлений"
+
+#: auth_vk/templates/admin/send_notification.html:4
+#: auth_vk/templates/admin/send_notification.html:10
+#: auth_vk/templates/admin/send_notification.html:86
+msgid "Send Notification"
+msgstr "Отправить уведомление"
+
+#: auth_vk/templates/admin/send_notification.html:8
+msgid "Home"
+msgstr "Главная"
+
+#: auth_vk/templates/admin/send_notification.html:18
+msgid "Send Push Notification"
+msgstr "Отправить Push-уведомление"
+
+#: auth_vk/templates/admin/send_notification.html:20
+#, python-format
+msgid ""
+"\n"
+"                         Send a push notification to <strong>%(count)s</"
+"strong> selected users.\n"
+"                    "
+msgstr ""
+"\n"
+"                         Отправить push-уведомление <strong>%(count)s</"
+"strong> выбранным пользователям.\n"
+"                    "
+
+#: auth_vk/templates/admin/send_notification.html:29
+#, python-format
+msgid "Selected Users (%(count)s)"
+msgstr "Выбранные пользователи (%(count)s)"
+
+#: auth_vk/templates/admin/send_notification.html:38
+#, python-format
+msgid "%(age)s years old"
+msgstr "%(age)s лет"
+
+#: auth_vk/templates/admin/send_notification.html:51
+msgid "Notification Content"
+msgstr "Содержимое уведомления"
+
+#: auth_vk/templates/admin/send_notification.html:55
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: auth_vk/templates/admin/send_notification.html:57
+msgid "e.g., Important Health Update"
+msgstr "Например, Важное обновление о здоровье"
+
+#: auth_vk/templates/admin/send_notification.html:58
+msgid "Keep it short and attention-grabbing (max 100 characters)"
+msgstr "Должен быть коротким и привлекающим внимание (макс. 100 символов)"
+
+#: auth_vk/templates/admin/send_notification.html:64
+msgid "Message:"
+msgstr "Сообщение:"
+
+#: auth_vk/templates/admin/send_notification.html:66
+msgid "Your notification message here..."
+msgstr "Текст вашего уведомления здесь..."
+
+#: auth_vk/templates/admin/send_notification.html:67
+msgid "Clear and concise message (max 500 characters recommended)"
+msgstr "Чёткое и краткое сообщение (рекомендуется макс. 500 символов)"
+
+#: auth_vk/templates/admin/send_notification.html:74
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: auth_vk/templates/admin/send_notification.html:77
+msgid "Your notification title"
+msgstr "Заголовок вашего уведомления"
+
+#: auth_vk/templates/admin/send_notification.html:80
+msgid "Your notification message will appear here"
+msgstr "Здесь появится текст вашего уведомления"
+
+#: auth_vk/templates/admin/send_notification.html:87
+msgid "Cancel"
+msgstr "Отмена"
